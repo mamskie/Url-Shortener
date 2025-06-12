@@ -55,7 +55,7 @@ export async function POST(
         data: {
           url: url,
           slug: parsedSlug,
-          successUrl: `${NEXT_PUBLIC_URL}/s/${parsedSlug}`,
+          successUrl: `/s/${parsedSlug}`,
           redirectUrl: `${NEXT_PUBLIC_URL}/l/${parsedSlug}`
         }
       },
